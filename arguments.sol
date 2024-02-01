@@ -11,4 +11,4 @@ contract one {
     }
 }
 
-// we dont need to define memory with int ,uint, address etc coz thier data location is mermory be default .
+// we dont need to define memory with int ,uint, address etc coz thier data location is memory(RAM) be default while struct ,array are in storage by default
