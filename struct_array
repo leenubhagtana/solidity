@@ -1,0 +1,21 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.0;
+
+contract test {
+    struct student {
+        string name ;
+        int age ;
+    }
+
+    student [] public allstudent;
+    
+
+    function set (string memory _name, int _age) public {
+        student memory st=student ({
+            name :_name ,
+            age :_age 
+        });
+
+        allstudent.push(st);
+    }
+}
