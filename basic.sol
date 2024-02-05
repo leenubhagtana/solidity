@@ -4,6 +4,7 @@ pragma solidity >=0.7.0;
 
 contract functions {
     uint public a=0;
+// by default variable are internal in solidity
 
     function add() public pure returns (uint ) {  
          
