@@ -11,6 +11,6 @@ contract hash {
      //   return keccak256(abi.encode(_pass,_name ));
 
     //}
-    // we also have abi.encodePacked() but issue is the hash of two inputs aaa,bbb and aaab,bb will be same .
+    // we also have abi.encodePacked() but issue is the hash of two inputs aaa,bbb and aaab,bb will be same as it will concat two strings.
 }
 }
